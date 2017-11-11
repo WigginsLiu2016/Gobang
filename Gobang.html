@@ -1,0 +1,27 @@
+<!doctype html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html" charset="utf-8">
+<title>五子棋</title>
+	 <link rel="stylesheet" href="css/bootstrap.min.css">
+     <link rel="stylesheet" href="css/style.css">
+     <script type="text/javascript" src="js/jquery-3.2.1.min.js"></script>
+     <script type="text/javascript" src="js/bootstrap.min.js"></script>
+     <script type="text/javascript" src="js/main.js"></script>
+</head>
+
+<body>
+	<header>
+		<a href="javascript:new_game();" id="new_game_button"><p class="h4" style="margin: auto ">五子棋</p></a>
+        <p class="h4">电脑执黑棋，玩家执白棋，白棋先走</p>
+    </header>
+    <div id="grid_container">
+        <div>
+			<canvas width="640" id="canvas" onMouseDown="play(event)" height="640">
+				
+			</canvas>
+        </div>
+		
+    </div>
+</body>
+</html>

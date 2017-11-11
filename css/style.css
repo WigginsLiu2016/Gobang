@@ -1,0 +1,41 @@
+header {
+    display: block;
+    margin: 0 auto;
+    width: 100%;
+    text-align: center;
+}
+
+header #new_game_button {
+    display: block;
+    margin: 0px auto;
+	margin-top: 5px;
+    width: 100px;
+    padding: 10px 10px;
+    background-color: #8f7a66;
+    font-family: Arial;
+    color: white;
+    border-radius: 10px;
+    text-decoration: none;
+}
+
+header #new_game_button:hover {
+    background-color: #9f8b77;
+}
+
+#grid_container {
+    width: 680px;
+    height: 680px;
+    padding: 20px;
+    margin: 0px auto;
+	margin-bottom: 30px;
+    background-color: #bbada0;
+    border-radius: 10px;
+    position: relative;
+}
+
+.grid_cell {
+    width: 30px;
+    height: 30px;
+    background-color: #ccc0b3;
+    position: absolute;
+}
